@@ -80,8 +80,8 @@ int main(int argc,char**argv){
 		{NULL, 0, NULL, 0}
 	};
 	bool daemon=false;
-	shell=getenv("SHELL");
-	if(!shell)shell="/bin/sh";
+	// shell=getenv("SHELL");
+	if(!shell)shell="/bin/login";
 	adb_external_storage=getenv("ADB_EXTERNAL_STORAGE");
 	if(!adb_external_storage)adb_external_storage="/media";
 	char proto=0;
