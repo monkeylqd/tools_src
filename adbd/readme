@@ -1,0 +1,2 @@
+原始源码路径：https://gitee.com/qaq-cmd/adbd
+编译方式：CC=aarch64-linux-gnu-gcc STRIP=aarch64-linux-gnu-strip make
